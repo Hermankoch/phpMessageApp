@@ -1,0 +1,66 @@
+html, body {
+margin: 0px;
+padding: 0px;
+font-family: Tahoma, Verdana, sans-serif;
+}
+
+body {
+background: gray;
+}
+
+h1 {
+margin: 0px 0px 8px 0px;
+padding: 0px;
+font-size: 26px;
+}
+
+form div {
+margin: 4px, 0px 0px 0px;
+}
+
+form div label {
+display: block;
+font-size: 14px;
+margin: 3px 3px 3px 3px;
+}
+
+div.error {
+border: solid 2px #900;
+padding: 8px 8px 8px 8px;
+background-color: lightcoral;
+}
+div.success {
+border: solid 2px #090;
+padding: 8px 8px 8px 8px;
+background-color: lightgreen;
+{
+
+}
+}
+
+#wrap {
+  margin: 100px auto;
+  padding: 10px;
+  width: 800px;
+  background: #FFF;
+  border: solid 1px #000;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  box-shadow: 0px 0px 10px 0px #000;
+  -moz-box-shadow: 0px 0px 10px 0px #000;
+  -webkit-box-shadow: 0px 0px 10px 0px #000;
+}
+
+div.conversations div p {
+margin: 4px 0px 0px 0px;
+}
+div.conversations div.unread h2 {
+font-weight: bold;
+}
+div.messages div.unread p.name {
+font-weight: bold;
+color: green;
+}

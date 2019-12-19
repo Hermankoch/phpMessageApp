@@ -1,0 +1,38 @@
+Create New Database: Private Message System
+Create New Table: user
+
+columns:
+1 - user_id                   int       8 (Primary AI)
+2 - user_name                 varchar   20
+3 - user_password             char      40
+
+
+
+Create New Table: conversations
+
+1 - conversation_id           int       8 (Primary AI)
+2 - conversation_subject      varchar   128
+
+Create New Table: conversations_members
+
+1 - conversation_id           int       8
+2 - user_id                   int       8
+//These columns link which users is part of which conversation
+
+3 - conversation_last_view    int       10
+4 - conversation_deleted      int       1
+
+conversation_members:
+create an index on 2 columns
+unique
+conversation_id
+user_id
+
+create New Table: conversations_messages
+1 - message_id                int       10 (Primary AI)
+2 - conversation_id           int       8
+3 - user_id                   int       8
+4 - message_date              int       10
+5 - message_text              text      1000
+
+Function for message max limit = 1000

@@ -1,0 +1,29 @@
+SELECT * FROM `users` WHERE 1
+
+Pages:
+login
+inbox
+logout
+new_conversation
+view_conversation
+
+validate_credentials
+
+Includes
+init.inc.php - includes everything
+private.message.inc.php
+user.inc.php
+
+-------------------
+Directory:
+index.php (Main page loaded)
+
+Core 	
+	(Directory is Hidden from public)
+	init.inc.php (Runs code all the time)
+	
+	/Pages	(For all the pages)
+	/inc	(Backend files)
+	/inc/	private_message.inc.php & user_inc.php
+ext
+	(Includes public files) css/java/browser files
